@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View,Image } from "react-native";
 
 export default function Index() {
   return (
@@ -9,6 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Image source={require("../assets/images/react-logo.png")}/>
       <Text>Hello World!</Text>
       <Text>My first ReactNative cross platform app</Text>
     </View>
